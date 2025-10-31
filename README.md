@@ -1,4 +1,4 @@
-#  Real-Time Object Detection using YOLOv7
+# Real-Time Object Detection using YOLOv7
 
 This project performs **real-time object detection** using **YOLOv7** and **OpenCV**.  
 It captures video from your webcam and identifies multiple objects like people, cars, and animals instantly.
