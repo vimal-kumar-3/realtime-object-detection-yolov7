@@ -16,7 +16,6 @@ It captures video from your webcam and identifies multiple objects like people, 
 ##  Requirements
 
 Before running the project, make sure you have Python installed.  
-Then install the required dependencies:
 
 ```bash
 pip install opencv-python numpy
