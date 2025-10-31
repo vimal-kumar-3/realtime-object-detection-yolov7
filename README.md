@@ -7,7 +7,7 @@ It captures video from your webcam and identifies multiple objects like people, 
 
 ##  Features
 - Real-time detection from webcam  
-- Uses **YOLOv7-Tiny** for faster performance  
+- Uses YOLOv7-Tiny for faster performance  
 - Adjustable detection confidence and threshold values  
 - Displays object labels and confidence scores live  
 
@@ -23,7 +23,7 @@ pip install opencv-python numpy
 ```
 ## Project Structure
 ```
-yolov-coco-v7/
+yolov-coco-v7
 │
 ├── coco.names              # COCO dataset class labels
 ├── yolov7.cfg              # YOLOv7 configuration file
@@ -40,11 +40,8 @@ cd yolov7-realtime-detection
 2. Activate your environment (if using conda)
 conda activate yolov7-env
 3. Run the script
-python realtime.py
-Press Esc to exit.
-4. Adjustable Parameters
-
-You can modify detection sensitivity directly through command-line arguments:
 ```python
-python realtime.py --confidence 0.6 --threshold 0.4
+python realtime.py
 ```
+4. Press Esc to exit.
+
