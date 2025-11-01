@@ -33,7 +33,7 @@ yolov-coco-v7
 
 1. Clone this repository
 ```bash
-git clone https://github.com/your-username/yolov7-realtime-detection.git
+git clone https://github.com/vimal-kumar-3/realtime-object-detection-yolov7.git
 cd yolov7-realtime-detection
 ```
 2. Activate your environment (if using conda)
